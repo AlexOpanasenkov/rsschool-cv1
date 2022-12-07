@@ -18,7 +18,7 @@ email: a.opanasenkov@gmail.com<br>
 ---
 ### Briefly about myself:<br>
 
-Learning JavaScript in RS School
+Learning JavaScript in Rolling Scopes School
 
 ---
 ### Scills of proficiency:
