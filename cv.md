@@ -32,5 +32,6 @@ ROLLING SCOPES SCHOOL in 2022-2023
 
 ### Lenguages:
 * English - Intermediate<br>
+* Slovak - Intermideate<br>
 * Ukrainian - Native<br>
 * Russian - Native
