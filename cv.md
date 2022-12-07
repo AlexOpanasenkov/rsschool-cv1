@@ -1,1 +1,2 @@
-#Oleksandr Opanasenkov
+# rsschool-cv
+
