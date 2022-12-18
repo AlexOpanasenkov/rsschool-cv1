@@ -30,23 +30,19 @@ a:visited, a:link, a:active{
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
-	border: red 1px dashed;
 	margin-bottom: 30px;
 }
 .logo-img {
 	box-sizing: border-box;
 	width: 20%;
 	border-radius: 50%;
-	border: red 1px dashed;
 }
 .logo-text {
 	padding-top: 110px;
-	border: red 1px dashed;
 	font-size: 45px;
 }
 .logo-description {
 	display: flex;
-	border: red 1px dashed;
 	justify-content: center;
 	font-size: 35px;
 	margin-bottom: 30px;
@@ -54,7 +50,6 @@ a:visited, a:link, a:active{
 .menu-nav {
 	display: flex;
 	justify-content: space-around;
-	border: red 1px dashed;
 	margin-bottom: 30px;
 }
 .menu-nav_link {
@@ -64,8 +59,22 @@ a:visited, a:link, a:active{
 }
 .menu-nav__link_item{
     margin-right: 56px;
-    font: 800 20px/176% 'Mplus 1p',arial, helvetica, sans-serif;
-    letter-spacing: 2.1px;
-    color: #000;
+    font-size: 20px;
+}
+.main-description {
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 30px;
+}
+.main-description__item {
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 800;
+	font: 800 20px/30px, arial, helvetica, sans-serif;
+	padding-bottom: 10px;
+}
+.footer_logo-rsschool-img {
+	box-sizing: border-box;
+	width: 10%;
 }
 
