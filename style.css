@@ -85,4 +85,13 @@ a:visited, a:link, a:active{
 	box-sizing: border-box;
 	width: 10%;
 }
-
+.footer {
+	display: flex;
+	justify-content: space-around;
+	background-color: gray;
+	vertical-align: middle;
+}
+.footer__link-github, .footer__year, .footer__link-course {
+	margin-top: 15px;
+    font-size: 20px;
+}
