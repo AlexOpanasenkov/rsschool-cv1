@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>rsschool-cv</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap"
-	rel="stylesheet" />
+	rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="wrapper">
-		<div class="header">
+		<header class="header">
 			<div class="header-top">
-				<img class="logo-img" src="foto.jpg" alt="foto-person"></img>
+				<img class="logo-img" src="foto.jpg" alt="foto-person">
 				<h1 class="logo-text">Oleksandr Opanasenkov</h1>
 			</div>
 			<h2 class="logo-description">Frontend Developer</h2>
@@ -20,55 +20,74 @@
 				<nav class="menu-nav_link">
 					<a class="menu-nav__link_item" href="+421951308377" target="_blank">(+421) 95 - 130 - 83 - 77)</a>
 					<a class="menu-nav__link_item" href="a.opanasenkov@gmail.com" target="_blank">a.opanasenkov@gmail.com</a>
-					<a class="menu-nav__link_item" href="https://www.instagram.com/alex_frontend/"target="_blank">Instagram</a>
+					<a class="menu-nav__link_item" href="https://www.instagram.com/alex_frontend/ "target="_blank">Instagram</a>
 					<a class="menu-nav__link_item" href="https://www.linkedin.com/in/oleksandr-opanasenkov-853a56221/" target="_blank">Linkedin</a>
 				</nav>
 			</div>
-		</div>
-		<div class="main">
+		</header>
+		<main class="main">
 			<div class="main-myself main-description">
-				<p class="main-description__item">Briefly about myself:
-					<ul>
-						<li>Live and work in Slovakia</li>
-						<li>Learning JavaScript in Rolling Scopes School</li>
-					</ul>
-				</p>
+				<p class="main-description__item">Briefly about myself:</p>
+				<ul>
+					<li class="main__item-center">Live and work in Slovakia</li>
+					<li class="main__item-center">Learning JavaScript in Rolling Scopes School</li>
+				</ul>
 			</div>
+			<hr>
 			<div class="main-scills main-description">
 				<p class="main-description__item">Scills of proficiency:
 					<ul>
-						<li>HTML5, CSS3</li>
-						<li>GitHub</li>
-						<li>Figma, Adobe Photoshop</li>
+						<li class="main__item-center">HTML5, CSS3</li>
+						<li class="main__item-center">GitHub</li>
+						<li class="main__item-center">Figma, Adobe Photoshop</li>
 					</ul>
 				</p>
 			</div>
+			<hr>
 			<div class="main-coursers main-description">
-				<p class="main-description__item">Coursers:
-					<ul>
-						<li>ROLLING SCOPES SCHOOL in 2022-2023</li>
-						<li>Easy code in 2016</li>
-					</ul>
-				</p>
+				<p class="main-description__item">Education:</p>
+				<ul>
+					<li class="main__item-center">H.S. Skovoroda Kharkiv National Pedagogical University in 1999-2002</li>
+					<li class="main__item-center">Specialty - lawyer</li>
+				</ul>
 			</div>
+			<hr>
+			<div class="main-coursers main-description">
+				<p class="main-description__item">Coursers:</p>
+				<ul>
+					<li class="main__item-center">ROLLING SCOPES SCHOOL in 2022-2023</li>
+					<li class="main__item-center">Easy code in 2016</li>
+				</ul>
+			</div>
+			<hr>
+			<code >
+				<p class="main-description__item">Code example:</p>
+				<p class="main__item-center">
+					const myName = 'Alex'; <br>
+					const mySurname = 'Opanasenkov'; <br>
+					const myProfession = 'Developer'; <br>
+					const myLife = 'Меня зовут ' + myName + ' ' + mySurname + ' и я ' + myProfession; <br>
+					console.log(myLife);</p>
+			</code>
+			<hr>
 			<div class="main-lenguages main-description">
-				<p class="main-description__item">Lenguages:
-					<ul>
-						<li>English - Intermediate</li>
-						<li>Slovak - Intermideate</li>
-						<li>Ukrainian - Native</li>
-						<li>Russian - Native</li>
-					</ul>
-				</p>
+				<p class="main-description__item">Lenguages:</p>
+				<ul>
+					<li class="main__item-center">English - Intermediate (A1)</li>
+					<li class="main__item-center">Slovak - Intermideate (A2)</li>
+					<li class="main__item-center">Ukrainian - Native (C2)</li>
+					<li class="main__item-center">Russian - Native (C2)</li>
+				</ul>
 			</div>
-		</div>
-		<div class="footer">
-			<p>2022</p>
+			<br>
+		</main>
+		<footer class="footer">
+			<h2 class="footer__year">2022</h2>
 			<a class="footer__link-github" href="https://github.com/AlexOpanasenkov/"
 				target="_blank">GitHub</a>
-			<img class="footer_logo-rsschool-img" src="logo_rs_school_js.svg" alt="logo-rsschool-img"></img>
+			<img class="footer_logo-rsschool-img" src="logo_rs_school_js.svg" alt="logo-rsschool-img">
 			<a class="footer__link-course" href="https://rs.school/js/" target="_blank">Link on RSSCHOOL</a>
-		</div>
+		</footer>
 	</div>
 </body>
 </html>
