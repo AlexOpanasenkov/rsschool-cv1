@@ -82,12 +82,10 @@ a:visited, a:link, a:active{
 	padding-bottom: 10px;
 }
 .main__item-center {
-	margin-left: auto;
-    margin-right: auto;
+	display: block;
 	text-align: center;
 	font-size: 30px;
 	line-height: 30px;
-	font-weight: 500;
 }
 .footer_logo-rsschool-img {
 	box-sizing: border-box;
